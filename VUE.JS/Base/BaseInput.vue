@@ -1,6 +1,7 @@
 <template>
-  <label> {{ label }} </label>
-  <input v-bind="$attrs" :placeholder="label" :value="modelValue" @input="emitToParent" />
+  <label> {{ label }} 
+    <input v-bind="$attrs" :placeholder="label" :value="modelValue" @input="emitToParent" />
+  </label>
 </template>
 
 <script setup lang="ts">
