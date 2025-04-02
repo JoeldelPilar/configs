@@ -1,0 +1,238 @@
+{
+	/** BETTER COMMENTS */
+	"better-comments.multilineComments": true,
+	"better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+  {
+    "tag": "!",
+    "color": "#FF2D00",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "?",
+    "color": "#3498DB",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "//",
+    "color": "#474747",
+    "strikethrough": true,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+  {
+    "tag": "*",
+    "color": "#98C379",
+    "strikethrough": false,
+    "underline": false,
+    "backgroundColor": "transparent",
+    "bold": false,
+    "italic": false
+  },
+	{
+		"tag": "/**",
+		"color": "#FF8C00",
+		"strikethrough": false,
+		"underline": false,
+		"backgroundColor": "transparent",
+		"bold": false,
+		"italic": false
+	}
+],
+
+  /** EDITOR SETTINGS **/
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.indentSize": 2,
+  "editor.lineHeight": 1.8,
+  "editor.minimap.autohide": true,
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#3a3a52"
+    }
+  ],
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 90,
+
+  /** GIT SETTINGS */
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.ignoreRebaseWarning": true,
+
+  /** GO SETTINGS */
+  "go.toolsManagement.autoUpdate": true,
+
+  /** GITHUB SETTINGS */
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  /** HIGHLIGHT MATCHING TAG SETTINGS **/
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.highlightSelfClosing": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "custom": {
+          "fontWeight": "500",
+          "letterSpacing": "1px",
+          "borderWidth": "0px 0px 3px 0px",
+          "borderColor": "#d65db1",
+          "borderStyle": "solid"
+        }
+      }
+    }
+  },
+
+  /** JSON SETTINGS **/
+  "json.format.enable": true,
+
+  /** MAKEFILE SETTINGS **/
+  "makefile.configureOnOpen": true,
+
+  /** PRETTIER SETTINGS **/
+  "prettier.bracketSameLine": false,
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.requireConfig": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": true,
+
+  /** SYMBOLS SETTINGS **/
+  "symbols.hidesExplorerArrows": false,
+
+  /** TABNINE SETTINGS **/
+  "tabnine.experimentalAutoImports": true,
+
+  /** TERMINAL SETTINGS **/
+  "terminal.explorerKind": "both",
+  "terminal.external.osxExec": "Ghostty.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeightBold": "900",
+  "terminal.integrated.lineHeight": 1.5,
+
+  /** TODO HIGHLIGHT SETTINGS **/
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "backgroundColor": "#d65db1",
+      "color": "#ffe5ff",
+      "border": "1px solid #e9aed5",
+      "borderRadius": "2px"
+    },
+    {
+      "text": "export default async function",
+      "backgroundColor": "#bd93f9cd",
+      "color": "#ebfcff",
+      "border": "1px solid #bd93f1",
+      "borderRadius": "2px",
+      "borderStyle": "solid"
+    },
+    {
+      "text": "export default function",
+      "backgroundColor": "#bd60f0",
+      "color": "#ebfcff",
+      "border": "1px solid #bd93f1",
+      "borderRadius": "2px",
+      "borderStyle": "solid"
+    },
+    {
+      "text": "slog.Info",
+      "regex": true,
+      "backgroundColor": "#00a6a2",
+      "color": "#ebfcff",
+      "border": "1px solid #00a859",
+      "borderRadius": "2px"
+    }
+  ],
+
+  /** VS-KUBERNETES SETTINGS **/
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-mac": "/Users/joeldelpilar/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vscode-kubernetes.helm-path-mac": "/Users/joeldelpilar/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+  },
+
+  /** VSCODE CUSTOM CSS SETTINGS **/
+  "vscode_custom_css.imports": [
+    "file:///Users/joeldelpilar/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+  ],
+
+  /** VSICONS SETTINGS **/
+  "vsicons.dontShowNewVersionMessage": true,
+
+  /** WORKBENCH SETTINGS **/
+  "workbench.colorCustomizations": {
+    "editor.background": "#242433",
+    "sideBar.background": "#242433",
+    "sideBar.border": "#bd93f9cd",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#BD93F9",
+    "terminal.ansiCyan": "#8BE9FD",
+    "terminal.ansiGreen": "#50FA7B",
+    "terminal.ansiMagenta": "#FF79C6",
+    "terminal.ansiRed": "#FF5555",
+    "terminal.ansiWhite": "#FFFFFF",
+    "terminal.ansiYellow": "#F1FA8C",
+    "terminal.background": "#1b1b29",
+    "terminal.foreground": "#bd93f9",
+    "terminalCommandDecoration.defaultBackground": "#ff79c6",
+    "terminalCommandDecoration.errorBackground": "#ff5555",
+    "terminalCommandDecoration.successBackground": "#50fa7b",
+    "terminalCursor.foreground": "#50fa7b"
+  },
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.editor.customLabels.patterns": {
+    "**/{page,layout}.tsx": "${dirname} ${filename}",
+    "**/{index}.ts": "${dirname} ${filename}",
+    "**/{interface,interfaces}.ts": "${dirname} ${filename}",
+    "**/{main}.go": "${dirname} ${filename}",
+    "**/{main_test}.go": "${dirname} ${filename}",
+    "**/{settings}.json": "${dirname} ${filename} JSON"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.productIconTheme": "fluent-icons",
+
+  /** XML SETTINGS **/
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+
+  /** ZIG SETTINGS **/
+  "zig.zls.enabled": "on"
+}
